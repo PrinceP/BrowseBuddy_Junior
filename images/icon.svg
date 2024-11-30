@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- 16x16 Icon -->
+  <svg x="0" y="0" width="16" height="16" viewBox="0 0 16 16">
+    <circle cx="8" cy="8" r="7" fill="#4CAF50"/>
+    <path d="M5 8 L7 10 L11 6" stroke="white" stroke-width="2" fill="none"/>
+  </svg>
+
+  <!-- 48x48 Icon -->
+  <svg x="16" y="0" width="48" height="48" viewBox="0 0 48 48">
+    <rect width="48" height="48" rx="10" fill="#2196F3"/>
+    <path d="M15 24 L21 30 L33 18" stroke="white" stroke-width="4" fill="none"/>
+    <circle cx="24" cy="15" r="5" fill="white"/>
+  </svg>
+
+  <!-- 128x128 Icon -->
+  <svg x="64" y="0" width="128" height="128" viewBox="0 0 128 128">
+    <rect width="128" height="128" rx="20" fill="#FF5722"/>
+    <g transform="translate(64, 64)">
+      <circle cx="0" cy="0" r="40" fill="#FFFFFF" opacity="0.2"/>
+      <path d="M-20 0 Q0 -25, 20 0 T60 0" stroke="#FFFFFF" stroke-width="6" fill="none"/>
+      <path d="M-15 20 L0 35 L15 20" stroke="#FFFFFF" stroke-width="6" fill="none"/>
+      <circle cx="0" cy="-40" r="10" fill="#FFFFFF"/>
+    </g>
+    <text x="64" y="120" text-anchor="middle" font-size="16" fill="white" font-family="Arial">SafeWeb</text>
+  </svg>
+</svg>

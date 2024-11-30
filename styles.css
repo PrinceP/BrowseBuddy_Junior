@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+  font-family: 'Comic Sans MS', 'Chilanka', cursive;
+  background-color: #f0f4f8;
+  color: #333;
+  min-width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.status-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #2196F3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #FF5722;
+  border-bottom: 2px solid #FF5722;
+  padding-bottom: 5px;
+}
+
+#protection-status {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+#generate-report {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#generate-report:hover {
+  background-color: #45a049;
+}
+
+.alert {
+  color: red;
+  font-weight: bold;
+}
+
+/* Content Script Styles for Highlighting */
+.browseBuddy-harmful-language {
+  background-color: rgba(255, 0, 0, 0.2);
+  border-bottom: 2px solid red;
+}
+
+.browseBuddy-personal-data-risk {
+  background-color: rgba(255, 165, 0, 0.2);
+  border-bottom: 2px solid orange;
+}

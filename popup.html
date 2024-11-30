@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BrowseBuddy Junior</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    .button {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .settings-summary {
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #f5f5f5;
+      border-radius: 4px;
+    }
+    .setting-group {
+      margin-bottom: 15px;
+    }
+    .setting-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    .setting-group input[type="checkbox"] {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>BrowseBuddy Junior</h2>
+  
+  <div class="settings-summary" id="current-settings">
+    <h3>Current Settings</h3>
+    <div id="settings-content">Loading...</div>
+  </div>
+
+  <div class="setting-group">
+    <h3>Website Category Monitoring</h3>
+    <label>
+      <input type="checkbox" name="category" value="social-media"> Social Media
+    </label>
+    <label>
+      <input type="checkbox" name="category" value="entertainment"> Entertainment
+    </label>
+    <label>
+      <input type="checkbox" name="category" value="gaming"> Gaming
+    </label>
+    <label>
+      <input type="checkbox" name="category" value="shopping"> Shopping
+    </label>
+  </div>
+
+  <div class="setting-group">
+    <h3>Content Monitoring</h3>
+    <label>
+      <input type="checkbox" name="content" value="harmful-language"> Harmful Language Detection
+    </label>
+    <label>
+      <input type="checkbox" name="content" value="cyberbullying"> Cyberbullying Detection
+    </label>
+    <label>
+      <input type="checkbox" name="content" value="personal-info"> Personal Information Protection
+    </label>
+  </div>
+
+  <div class="setting-group">
+    <h3>Screen Time Limits</h3>
+    <label>Daily Screen Time Limit (hours):
+      <input type="number" id="screen-time-limit" min="1" max="12">
+    </label>
+  </div>
+
+  <button class="button" id="save-settings">Save Settings</button>
+  <button class="button" id="generate-report">Generate Report</button>
+
+  <script src="report-generator.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
