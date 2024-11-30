@@ -17,15 +17,10 @@
   "background": {
     "service_worker": "background.js"
   },
-  "web_accessible_resources": [{
-    "resources": ["report-generator.js"],
-    "matches": ["<all_urls>"]
-  }],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
       "js": [
-        "report-generator.js",
         "content.js"
       ],
       "css": ["styles.css"]
