@@ -24,7 +24,7 @@ Before installing the extension, please ensure you meet the following requiremen
    - Maintain at least 10 GB free space after installation
    > Note: Different operating systems may report available space differently. On macOS, use Disk Utility for accurate measurements.
 
-## PreRequistes
+## Setup
 
 ### 1. Enable Gemini Nano and Prompt API
 
