@@ -24,15 +24,9 @@ Before installing the extension, please ensure you meet the following requiremen
    - Maintain at least 10 GB free space after installation
    > Note: Different operating systems may report available space differently. On macOS, use Disk Utility for accurate measurements.
 
-## Installation
+## PreRequistes
 
-### 1. Load Unpacked Extension
-1. Open Chrome and navigate to `chrome://extensions/`
-2. Enable "Developer mode" in the top-right corner
-3. Click "Load unpacked" and select the extension directory
-4. The extension icon should appear in your Chrome toolbar
-
-### 2. Enable Gemini Nano and Prompt API
+### 1. Enable Gemini Nano and Prompt API
 
 1. Enable Gemini Nano bypass:
    - Navigate to `chrome://flags/#optimization-guide-on-device-model`
@@ -44,7 +38,7 @@ Before installing the extension, please ensure you meet the following requiremen
 
 3. Relaunch Chrome
 
-### 3. Verify Gemini Nano Installation
+### 2. Verify Gemini Nano Installation
 
 1. Open Chrome DevTools (Press F12 or Ctrl+Shift+I)
 2. In the console, run:
